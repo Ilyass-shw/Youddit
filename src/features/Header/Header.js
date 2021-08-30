@@ -29,7 +29,7 @@ const Header = () => {
 			{!isSearching && (
 				<div className="reddit-logo" data-testid="reddit-logo">
 					<h3>
-						<InlineIcon icon={redditFill} color={"red"} width="1.7rem" height="1.7rem" /> Tubeddit
+						<InlineIcon icon={redditFill} color={"red"} width="1.7rem" height="1.7rem" /> Youddit
 					</h3>
 				</div>
 			)}
