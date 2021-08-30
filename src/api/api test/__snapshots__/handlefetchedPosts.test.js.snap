@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handlefetchedPosts should handle fetched posts 1`] = `
+Array [
+  Object {
+    "author": "author 1",
+    "date": "21 days ago",
+    "id": "id 1",
+    "img": "fake img url 1",
+    "subreddit": "subreddit 1",
+    "title": "fake title 1",
+    "upvotes": "115.6K",
+    "url": "fake link 1",
+  },
+  Object {
+    "author": "author 2",
+    "date": "in over 63 years",
+    "id": "id 2",
+    "img": "fake img url 2",
+    "subreddit": "subreddit 2",
+    "title": "fake title 2",
+    "upvotes": "115.51K",
+    "url": "fake link 2",
+  },
+  Object {
+    "author": "author 3",
+    "date": "in over 31 years",
+    "id": "id 3",
+    "img": "fake img url 3",
+    "subreddit": "subreddit 3",
+    "title": "fake title 3",
+    "upvotes": "115.59K",
+    "url": "fake link 3",
+  },
+]
+`;

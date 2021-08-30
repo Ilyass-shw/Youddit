@@ -1,0 +1,43 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	min-height: 100vh;
+	color: white;
+	background-color: #202020;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4rem;
+}
+
+/* Works on Firefox */
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #606060 #181818;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+	width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+	background: #181818;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	background-color: #606060;
+  }
+button:hover,
+button:focus {
+	cursor: pointer;
+	outline: none;
+}
+input {
+	outline: none;
+}

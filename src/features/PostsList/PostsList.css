@@ -1,0 +1,11 @@
+.posts-container {
+	display: inline-flex;
+	margin-left: 4.5rem;
+	background-color: rgba(24, 24, 24, 1);
+	min-height: 100vh;
+}
+.posts-list {
+	width: 100vh;
+	margin-top: 1.5rem;
+	flex: 1;
+}

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post should match the snapshot on desktop 1`] = `
+<div>
+  <div
+    class="post-block"
+  >
+    <a
+      alt="fake title 1"
+      class="image-container"
+      href="https://www.reddit.comfake link 1"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="post"
+        class="content-image"
+        src="fake img url 1"
+      />
+    </a>
+    <div
+      class="post-data"
+    >
+      <a
+        alt="fake title 1"
+        href="https://www.reddit.comfake link 1"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          class="post-data-container"
+        >
+          <div
+            class="mobile-post-data"
+          >
+            <h4
+              class="title"
+            >
+              fake title 1
+            </h4>
+            <div
+              class="upvotes-date-data"
+            >
+              <p>
+                subreddit 1
+                <span
+                  class="dot"
+                >
+                  •
+                </span>
+                10k
+                 upvotes
+                <span
+                  class="dot"
+                >
+                  •
+                </span>
+                1 days ago
+              </p>
+            </div>
+          </div>
+          <div
+            class="subreddit"
+          >
+            <p>
+              Icon mock
+            </p>
+            <p
+              class="subreddit-name"
+            >
+              subreddit 1
+            </p>
+            <p
+              class="subreddit-label"
+            >
+              subreddit 1
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Post should match the snapshot on devices smaller than desktop 1`] = `
+<div>
+  <div
+    class="post-block"
+  >
+    <a
+      alt="fake title 1"
+      class="image-container"
+      href="https://www.reddit.comfake link 1"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <img
+        alt="post"
+        class="content-image"
+        src="fake img url 1"
+      />
+    </a>
+    <div
+      class="post-data"
+    >
+      <a
+        alt="fake title 1"
+        href="https://www.reddit.comfake link 1"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          class="post-data-container"
+        >
+          <div
+            class="subreddit"
+          >
+            <p>
+              Icon mock
+            </p>
+          </div>
+          <div
+            class="mobile-post-data"
+          >
+            <h4
+              class="title"
+            >
+              fake title 1
+            </h4>
+            <div
+              class="upvotes-date-data"
+            >
+              <p>
+                subreddit 1
+                <span
+                  class="dot"
+                >
+                  •
+                </span>
+                10k
+                 upvotes
+                <span
+                  class="dot"
+                >
+                  •
+                </span>
+                1 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

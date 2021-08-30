@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputForm should match the snapshot 1`] = `
+<div>
+  <div
+    class="input"
+  >
+    <form
+      action="#"
+      autocomplete="off"
+      class="input-form"
+    >
+      <div
+        data-testid="Transition"
+      >
+        <input
+          name="search"
+          placeholder="Search"
+          style="flex-basis: 34.5rem;"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="button-container"
+      >
+        <button
+          class="search-button"
+          data-testid="search-button"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </button>
+        <p
+          class="search-label"
+        >
+          Search
+        </p>
+      </div>
+    </form>
+  </div>
+</div>
+`;

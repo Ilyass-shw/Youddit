@@ -1,0 +1,126 @@
+.App {
+	text-align: center;
+}
+.App-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.App-container a:link {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.App-container a:visited {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+@media (max-width: 660px) {
+	.header,
+	.filter-bar,
+	.posts-container {
+		margin: 0;
+	}
+	.sideNav {
+		bottom: 0;
+		margin: 0;
+		width: 100%;
+		z-index: 2;
+		background-color: #202020;
+		color: white;
+	}
+	.sideNav ul {
+		display: flex;
+		align-items: center;
+	}
+	.sideNav ul a {
+		display: inline-flex;
+		justify-content: flex-end;
+		flex: 1;
+		height: 3.2rem;
+	}
+	.sideNav ul a:first-child {
+		display: none;
+	}
+}
+@media (max-width: 580px) {
+	.post-block {
+		flex-direction: column;
+		height: 15rem;
+		width: 100%;
+	}
+	.image-container {
+		display: inline-flex;
+		justify-content: center;
+		height: 65%;
+		width: 100%;
+		flex-basis: auto;
+	}
+	.content-image {
+		height: 156px;
+		width: auto;
+		max-width: 100%;
+	}
+	.post-data-container {
+		flex-direction: row;
+		align-items: flex-start;
+		margin-top: 12px;
+	}
+	.post-data-container .subreddit {
+		padding: 0 12px;
+	}
+	.post-data {
+		margin: 0 auto;
+		flex-basis: 35%;
+	}
+	.skeleton-post-block {
+		align-items: center;
+	}
+	.skeleton-post-data-mobile {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.skeleton-post-data-container-mobile {
+		flex-direction: column;
+	}
+
+	.skeleton-subreddit-mobile {
+		align-items: flex-start;
+		justify-content: center;
+		padding: 10px;
+	}
+	.skeleton-subreddit-mobile span:first-child {
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+	}
+	.skeleton-subreddit-mobile span:nth-child(2) {
+		display: none;
+	}
+}
+@media (max-width: 460px) {
+	.header .reddit-logo svg {
+		width: 1.4rem;
+		height: 1.4rem;
+	}
+	.header .mobile-search-button {
+		background-color: #202020;
+		border: none;
+	}
+	.header .go-back-arrow {
+		margin: 0;
+	}
+	.header .input {
+		margin: 0 7px 0 0;
+	}
+}
+@media (max-width: 350px) {
+	.header-user-features {
+		justify-content: flex-end;
+		margin: 0 6px 0 0;
+	}
+	.icon-container:not(.icon-container:first-child) {
+		display: none;
+	}
+}

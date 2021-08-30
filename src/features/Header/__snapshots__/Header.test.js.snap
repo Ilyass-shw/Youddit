@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match the snapshot 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <div
+      class="reddit-logo"
+      data-testid="reddit-logo"
+    >
+      <h3>
+        <p>
+          InlineIcon mock
+        </p>
+         React
+      </h3>
+    </div>
+    <p>
+      InputForm mock
+    </p>
+    <div
+      class="header-user-features"
+    >
+      <div
+        class="icon-container"
+      />
+      <div
+        class="icon-container"
+      >
+        <a
+          class="user-icon"
+          href="www.youtube.com/watch?v=3oUu7N65s6I&t=1860s"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </a>
+        <p
+          class="icon-label"
+        >
+          Create
+        </p>
+      </div>
+      <div
+        class="icon-container"
+      >
+        <a
+          class="user-icon"
+          href="www.youtube.com/watch?v=3oUu7N65s6I&t=1860s"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </a>
+        <p
+          class="icon-label"
+        >
+          Apps
+        </p>
+      </div>
+      <div
+        class="icon-container"
+      >
+        <a
+          class="user-icon"
+          href="www.youtube.com/watch?v=3oUu7N65s6I&t=1860s"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </a>
+        <p
+          class="icon-label"
+        >
+          Notifications
+        </p>
+      </div>
+      <div
+        class="icon-container"
+      >
+        <a
+          class="user-icon"
+          href="www.youtube.com/watch?v=3oUu7N65s6I&t=1860s"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

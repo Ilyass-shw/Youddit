@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handleThumbnail should return Icon if thumbnail=default  1`] = `
+<div
+  className="content-image"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#202021",
+      "display": "inline-flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Icon
+    height="2rem"
+    icon={
+      Object {
+        "body": "<g fill=\\"none\\"><path d=\\"M13.544 10.456a4.368 4.368 0 0 0-6.176 0l-3.089 3.088a4.367 4.367 0 1 0 6.177 6.177L12 18.177m-1.544-4.633a4.368 4.368 0 0 0 6.177 0l3.088-3.088a4.368 4.368 0 0 0-6.177-6.177L12 5.823\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"/></g>",
+        "height": 24,
+        "width": 24,
+      }
+    }
+    width="2rem"
+  />
+</div>
+`;
+
+exports[`handleThumbnail should return Icon if thumbnail=image  1`] = `
+<div
+  className="content-image"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#202021",
+      "display": "inline-flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Icon
+    height="2rem"
+    icon={
+      Object {
+        "body": "<g fill=\\"none\\"><path d=\\"M13.544 10.456a4.368 4.368 0 0 0-6.176 0l-3.089 3.088a4.367 4.367 0 1 0 6.177 6.177L12 18.177m-1.544-4.633a4.368 4.368 0 0 0 6.177 0l3.088-3.088a4.368 4.368 0 0 0-6.177-6.177L12 5.823\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\"/></g>",
+        "height": 24,
+        "width": 24,
+      }
+    }
+    width="2rem"
+  />
+</div>
+`;
+
+exports[`handleThumbnail should return Icon if thumbnail=self  1`] = `
+<div
+  className="content-image"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#202021",
+      "display": "inline-flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Icon
+    height="2rem"
+    icon={
+      Object {
+        "body": "<path d=\\"M384 3q18 0 30.5 12.5T427 45v256q0 18-12.5 30.5T384 344H85L0 429V45q0-17 12.5-29.5T43 3h341zM85 152v43h256v-43H85zm171 107v-43H85v43h171zm85-128V88H85v43h256z\\" fill=\\"currentColor\\"/>",
+        "height": 432,
+        "width": 432,
+      }
+    }
+    width="2rem"
+  />
+</div>
+`;
+
+exports[`handleThumbnail should return Icon if thumbnail=spoiler  1`] = `
+<div
+  className="content-image"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#202021",
+      "display": "inline-flex",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Icon
+    height="2rem"
+    icon={
+      Object {
+        "body": "<g fill=\\"currentColor\\"><path d=\\"M6.002 5.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0z\\"/><path d=\\"M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71l-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z\\"/></g>",
+        "height": 16,
+        "width": 16,
+      }
+    }
+    width="2rem"
+  />
+</div>
+`;

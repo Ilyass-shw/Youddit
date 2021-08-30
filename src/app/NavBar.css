@@ -1,0 +1,34 @@
+.sideNav {
+	width: 4.4rem;
+	font-size: 0.6em;
+	position: fixed;
+	margin-top: 0.5rem;
+	color: #909090;
+}
+
+.sideNav ul {
+	padding-left: 0;
+	margin: 0;
+	list-style-type: none;
+
+}
+
+.sideNav ul a {
+	height: 4.55rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.018s;
+}
+.sideNav ul a:hover:not(a:first-child) {
+	background-color: #404040;
+}
+.sideNav ul a:first-child {
+	height: 3.6rem;
+}
+.sideNav ul li:first-child svg:hover {
+	padding: 6px;
+	background-color: #404040;
+	border-radius: 50%;
+}

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsSkeleton should match the snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="css-18kc0t3-SkeletonTheme"
+    >
+      <div
+        class="post-block skeleton-post-block"
+      >
+        <div
+          class="content-image skeleton-content-image"
+        >
+          <span>
+            <span
+              class="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+              style="width: 240px; height: 10rem;"
+            >
+              ‌
+            </span>
+          </span>
+        </div>
+        <div
+          class="post-data skeleton-post-data-mobile"
+        >
+          <div
+            class="post-data-container skeleton-post-data-container-mobile"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+                style="width: 180px; height: 20px;"
+              >
+                ‌
+              </span>
+            </span>
+            <span>
+              <span
+                class="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+                style="width: 140px; height: 13px;"
+              >
+                ‌
+              </span>
+            </span>
+          </div>
+          <div
+            class="subreddit skeleton-subreddit-mobile"
+          >
+            <span>
+              <span
+                class="react-loading-skeleton subreddit-icon css-1eg0sfo-skeletonStyles-Skeleton"
+              >
+                ‌
+              </span>
+            </span>
+            <span>
+              <span
+                class="react-loading-skeleton css-1eg0sfo-skeletonStyles-Skeleton"
+                style="width: 80px; height: 13px;"
+              >
+                ‌
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

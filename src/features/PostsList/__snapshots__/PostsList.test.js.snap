@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsList should display error when posts fetching fails 1`] = `
+<div>
+  <div
+    class="posts-container"
+  >
+    <div
+      class="posts-list"
+    >
+      I have failed you master!
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostsList should display posts after fetching has succeeded  1`] = `
+<div>
+  <div
+    class="posts-container"
+  >
+    <div
+      class="posts-list"
+    >
+      <div
+        rol="fake post"
+      >
+        <p>
+          fake title 1
+        </p>
+        <p>
+          fake img url 1
+        </p>
+        <p>
+          fake link 1
+        </p>
+        <p>
+          10k
+        </p>
+        <p>
+          1 days ago
+        </p>
+        <p>
+          author 1
+        </p>
+        <p>
+          subreddit 1
+        </p>
+        <p>
+          id 1
+        </p>
+      </div>
+      <div
+        rol="fake post"
+      >
+        <p>
+          fake title 2
+        </p>
+        <p>
+          fake img url 2
+        </p>
+        <p>
+          fake link 2
+        </p>
+        <p>
+          20k
+        </p>
+        <p>
+          2 days ago
+        </p>
+        <p>
+          author 2
+        </p>
+        <p>
+          subreddit 2
+        </p>
+        <p>
+          id 2
+        </p>
+      </div>
+      <div
+        rol="fake post"
+      >
+        <p>
+          fake title 3
+        </p>
+        <p>
+          fake img url 3
+        </p>
+        <p>
+          fake link 3
+        </p>
+        <p>
+          30k
+        </p>
+        <p>
+          3 days ago
+        </p>
+        <p>
+          author 3
+        </p>
+        <p>
+          subreddit 3
+        </p>
+        <p>
+          id 3
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostsList should display skeleton and match the snapshot when while posts are not fetched yet  1`] = `
+<div>
+  <div
+    class="posts-container"
+  >
+    <div
+      class="posts-list"
+    >
+      <p>
+        PostsSkeletonMock
+      </p>
+      <p>
+        PostsSkeletonMock
+      </p>
+      <p>
+        PostsSkeletonMock
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PostsList should display skeleton and match the snapshot when while posts fetching is not completed yet  1`] = `
+<div>
+  <div
+    class="posts-container"
+  >
+    <div
+      class="posts-list"
+    >
+      <p>
+        PostsSkeletonMock
+      </p>
+      <p>
+        PostsSkeletonMock
+      </p>
+      <p>
+        PostsSkeletonMock
+      </p>
+    </div>
+  </div>
+</div>
+`;

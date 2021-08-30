@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterBar should match the snapshot 1`] = `
+<div>
+  <div
+    class="filter-bar-container"
+  >
+    <div
+      class="filter-bar"
+    >
+      <div
+        class="arrow left hide"
+      >
+        <div
+          class="arrow-button"
+          data-testid="left-arrow"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </div>
+      </div>
+      <div>
+        <button
+          class="filter-button selected"
+          id="relevance"
+          value="relevance"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+           Relevance
+        </button>
+        <button
+          class="filter-button false"
+          id="hot"
+          value="hot"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+           Hot
+        </button>
+        <button
+          class="filter-button false"
+          id="new"
+          value="new"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+           New
+        </button>
+        <button
+          class="filter-button false"
+          id="top"
+          value="top"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+           Top
+        </button>
+        <button
+          class="filter-button false"
+          id="comments"
+          value="comments"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+           Comments
+        </button>
+      </div>
+      <div
+        class="arrow right  hide"
+      >
+        <div
+          class="arrow-button"
+          data-testid="right-arrow"
+        >
+          <p>
+            InlineIcon mock
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
