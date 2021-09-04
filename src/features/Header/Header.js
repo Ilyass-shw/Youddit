@@ -53,28 +53,28 @@ const Header = () => {
 					</div>
 
 					<div className="icon-container">
-						<a className="user-icon" href="">
+						<a className="user-icon" href="/">
 							<InlineIcon icon={bxsVideoPlus} color={"white"} width="1.5rem" height="1.5rem" />
 						</a>
 						<p className="icon-label">Create</p>
 					</div>
 
 					<div className="icon-container">
-						<a className="user-icon" href="">
+						<a className="user-icon" href="/">
 							<InlineIcon icon={appMenu} color={"white"} width="1.5rem" height="1.5rem" />
 						</a>
 						<p className="icon-label">Apps</p>
 					</div>
 
 					<div className="icon-container">
-						<a className="user-icon" href="">
+						<a className="user-icon" href="/">
 							<InlineIcon icon={bellIcon} color={"white"} width="1.5rem" height="1.5rem" />
 						</a>
 						<p className="icon-label">Notifications</p>
 					</div>
 
 					<div className="icon-container">
-						<a className="user-icon" href="">
+						<a className="user-icon" href="/">
 							<InlineIcon icon={redditFill} color={"white"} width="1.5rem" height="1.5rem" />
 						</a>
 					</div>
