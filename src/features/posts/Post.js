@@ -4,9 +4,12 @@ import "./Post.css";
 import { Icon } from "@iconify/react";
 import bxlReddit from "@iconify/icons-bx/bxl-reddit";
 import { handleThumbnail } from "../../api/api";
+import useWindowDimensions from "../Helper/UseWindowDimensions";
 
 const Post = ({ post }) => {
-	let isDesktop = window.innerWidth > 580;
+	  const dimension = useWindowDimensions()
+	let isDesktop = dimension.width >580
+	
 	return (
 		<div className="post-block">
 			<a

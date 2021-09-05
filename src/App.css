@@ -34,13 +34,14 @@
 		display: flex;
 		align-items: center;
 	}
-	.sideNav ul a {
+	.sideNav ul p {
 		display: inline-flex;
 		justify-content: flex-end;
 		flex: 1;
 		height: 3.2rem;
+		margin: 0;
 	}
-	.sideNav ul a:first-child {
+	.sideNav ul p:first-child {
 		display: none;
 	}
 }
